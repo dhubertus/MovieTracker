@@ -6,7 +6,7 @@ Movie Tracker’s main functionality has been completed. In the future I intend 
 <img width="1270" alt="movie-watcher copy" src="https://user-images.githubusercontent.com/25044263/27401890-1bdcea4c-5682-11e7-82ff-88a4a648aab7.png">
 
 ## Installation and Setup Instructions
-ie: `git clone, npm start, bower install, etc`  
+git clone --> npm install --> npm start  
 
 ## Reflection
  Movie Tracker was a week long project during my third module at Turing School of Software and Design. During this project we worked off The Movie DB API with the idea that the user should be able to create a user-name, sign in as a user, and save favorite movies. With the intention of becoming comfortable using Redux the technologies used to create this app were React.js, React-Redux, Redux-thunk, React-Router 4.0, PostgreSQL, Vanilla JS, JSX and CSS.

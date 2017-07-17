@@ -7,6 +7,8 @@ const port = (process.env.PORT || 3000);
 const app = express();
 const users = require('./routes/usersApi');
 
+// process.env.NODE_ENV = 'production'
+
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -25,6 +27,8 @@ if (process.env.NODE_ENV !== 'production') {
   }));
 }
 
+app.set('port', process.env.PORT || 3000)
+
 app.use(express.static('app'));
 
 app.get('/', function (req, res) { res.sendFile(path.join(__dirname, '/index.html')) });
@@ -32,6 +36,6 @@ app.get('/', function (req, res) { res.sendFile(path.join(__dirname, '/index.htm
 app.use('/api', users);
 app.get('/*', function (req, res) { res.sendFile(path.join(__dirname, '/index.html')) });
 
-app.listen(port);
+app.listen(app.get('port'));
 
 console.log(`Listening at http://localhost:${port}`);

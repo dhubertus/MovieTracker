@@ -29,13 +29,13 @@ if (process.env.NODE_ENV !== 'production') {
 
 app.set('port', process.env.PORT || 3000)
 
-app.use(express.static(path.join(__dirname, 'app')));
+app.use(express.static('app'));
 
 app.get('/', function (req, res) { res.sendFile(path.join(__dirname, '/index.html')) });
 
 app.use('/api', users);
 app.get('/*', function (req, res) { res.sendFile(path.join(__dirname, '/index.html')) });
 
-app.listen(app.get('port'));
+app.listen(port);
 
 console.log(`Listening at http://localhost:${port}`);

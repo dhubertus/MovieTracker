@@ -9,7 +9,7 @@
 6 silly lifecycle example-api@1.0.0~prestart: no script for prestart, continuing
 7 info lifecycle example-api@1.0.0~start: example-api@1.0.0
 8 verbose lifecycle example-api@1.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle example-api@1.0.0~start: PATH: /Users/davehubertus/.nvm/versions/node/v6.9.5/lib/node_modules/npm/bin/node-gyp-bin:/Users/davehubertus/Desktop/turing/personal-site/cloned-portfolio-repos/movie-tracker/node_modules/.bin:/Users/davehubertus/.nvm/versions/node/v6.9.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin
+9 verbose lifecycle example-api@1.0.0~start: PATH: /Users/davehubertus/.nvm/versions/node/v6.9.5/lib/node_modules/npm/bin/node-gyp-bin:/Users/davehubertus/Desktop/turing/personal-site/cloned-portfolio-repos/movie-tracker/node_modules/.bin:/Users/davehubertus/.rvm/gems/ruby-2.1.5/bin:/Users/davehubertus/.rvm/gems/ruby-2.1.5@global/bin:/Users/davehubertus/.rvm/rubies/ruby-2.1.5/bin:/Users/davehubertus/.nvm/versions/node/v6.9.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/davehubertus/.rvm/bin
 10 verbose lifecycle example-api@1.0.0~start: CWD: /Users/davehubertus/Desktop/turing/personal-site/cloned-portfolio-repos/movie-tracker
 11 silly lifecycle example-api@1.0.0~start: Args: [ '-c', 'node server.js' ]
 12 silly lifecycle example-api@1.0.0~start: Returned: code: 1  signal: null
